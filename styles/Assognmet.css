@@ -316,15 +316,7 @@ p {
 }
 
 
-
-:root {
-  --navy-dark: #001d3d;
-  --green-action: #51966b;
-  --green-hover: #43815a;
-  --bg-off-white: #f9f8f4;
-  --text-muted: #6b7280;
-}
-
+/* cta style */
 .cta-section {
   padding: 120px 120px;
   background-color: #ffffff;
@@ -359,3 +351,66 @@ p {
   font-size: 16px;
   color: #627382;
 }
+
+
+
+/* :root {
+  --footer-bg: #00162d; 
+  --footer-text: #ffffff;
+  --footer-muted: #a0aec0;
+} */
+
+.main-footer {
+  background-color: #001931;
+  color: #ffffff;
+  padding: 60px 120px;
+}
+
+.footer-container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.social-links-area h4 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.social-icons {
+  display: flex;
+  gap: 19px;
+  justify-content: flex-end;
+}
+
+.social-icons img{
+  max-width: 30px;
+  max-height: 30px;
+  border-radius: 50%;
+}
+
+.social-icons a:hover {
+  opacity: 0.8;
+}
+
+.footer-divider {
+  margin-bottom: 30px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+ color: #FAFAFA;
+  font-size: 24px;
+  margin: 0;
+}
+
